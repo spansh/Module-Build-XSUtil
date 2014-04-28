@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use Config;
 use Module::Build;
+use IO::File;
 our @ISA = qw(Module::Build);
 
 our $VERSION = "0.06";
